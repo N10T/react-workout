@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* max-width: 50vw; */
+  min-height: 40vh;
+  margin: 30px;
+  flex: 1;
+}
+
+form input,
+.btn {
+  padding: 8px 16px;
+margin: 16px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn.submit {
+  background-color: darkturquoise;
+  border-radius: 8px;
+}
